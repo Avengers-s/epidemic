@@ -1,0 +1,108 @@
+.web_app_menu{                                                                                                                                       
+    user-select: none;
+    width:100%;
+    height:100%;
+    background-image: url("/static/image/bg.jpg");
+    background-size: 100% 100%;
+}
+.web_app_menu_normal{
+    width: 20vw;
+    height: 50vh;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color:rgba(0,0,0,0.7);
+    border-radius:5px;
+}
+
+.web_app_menu_normal_title{
+     text-align:center;
+    color:white;
+    font-size:3vh;
+    height:4vh;
+    padding-top:2vh;
+}
+
+.web_app_menu_normal_daka{
+    width:100%;
+    height:7vh;
+    margin-top:2vh;
+}
+.web_app_menu_normal_lixiao{
+    width:100%;
+    height:7vh;
+}
+
+.web_app_menu_normal_churu{
+    width:100%;
+    height:7vh;
+}
+
+.web_app_menu_normal_item{
+    width:100%;
+    height:100%;
+}
+
+.web_app_menu_normal_item button{
+     color:white;
+    width:90%;
+    line-height:3vh;
+    position:relative;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background-color:#4CAF50;
+    border-radius:5px;
+}
+
+.web_app_menu_manager{
+    width: 20vw;
+    height: 50vh;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color:rgba(0,0,0,0.7);
+    border-radius:5px;
+}
+
+.web_app_menu_manager_title{
+     text-align:center;
+    color:white;
+    font-size:3vh;
+    height:4vh;
+    padding-top:2vh;
+}
+
+.web_app_menu_manager_daka{
+    width:100%;
+    height:7vh;
+    margin-top:2vh;
+}
+.web_app_menu_manager_lixiao{
+    width:100%;
+    height:7vh;
+}
+
+.web_app_menu_manager_churu{
+    width:100%;
+    height:7vh;
+}
+
+.web_app_menu_manager_item{
+    width:100%;
+    height:100%;
+}
+
+.web_app_menu_manager_item button{
+     color:white;
+    width:90%;
+    line-height:3vh;
+    position:relative;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background-color:#4CAF50;
+    border-radius:5px;
+}

@@ -1,0 +1,689 @@
+.web_app_settings{
+    width:100%;
+    height:100%;
+    user-select: none;
+    background-image: url("/static/image/bg.jpg");
+    background-size: 100% 100%;
+}
+
+.web_app_settings_login{
+    width: 20vw;
+    height: 31vh;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color:rgba(0,0,0,0.7);
+    border-radius:5px;
+}
+
+.web_app_settings_login_title{
+    text-align:center;
+    color:white;
+    font-size:3vh;
+    height:4vh;
+    padding-top:2vh;
+}
+
+.web_app_settings_login_username{
+    display:block;
+    height:7vh;
+    margin-top:2vh;
+}
+
+.web_app_settings_login_item{
+    width:100%;
+    height:100%;
+}
+.web_app_settings_login_item > input{
+    width:90%;
+    line-height:3vh;
+    position:relative;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+
+.web_app_settings_login_password{
+    display:block;
+    height:7vh;
+}
+.web_app_settings_login_submit{
+    display:block;
+   height:7vh;
+}
+
+.web_app_settings_login_submit button{
+    color:white;
+    width:90%;
+    line-height:3vh;
+    position:relative;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background-color:#4CAF50;
+    border-radius:5px;
+}
+
+
+.web_app_manager_churu{                                                                                                                                       
+    user-select: none;
+    width:100%;
+    height:100%;
+    background-image: url("/static/image/bg.jpg");
+    background-size: 100% 100%;
+}
+.web_app_manager_churu_context{
+    width: 65vw;
+    height: 75vh;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color:rgba(0,0,0,0.7);
+    border-radius:5px;
+}
+
+.web_app_manager_churu_title{
+     text-align:center;
+    color:white;
+    font-size:3vh;
+    height:4vh;
+    padding-top:2vh;
+}
+
+.web_app_manager_churu_name{
+    width:30%;
+    height:7vh;
+    margin-top:2vh;
+    display: inline-block;
+    margin-left:3vh;
+}
+.web_app_manager_churu_id{
+    width:30%;
+    height:7vh;
+    display: inline-block;
+    margin-top:2vh;
+    margin-left:3vh;
+}
+.web_app_manager_churu_submit{
+    width:30%;
+    height:7vh;
+    margin-top:2vh;
+
+    display: inline-block;
+}
+.web_app_manager_churu_return {
+    width:100%;
+    height:7vh;
+}
+.web_app_manager_churu_item{
+    width:100%;
+    height:100%;
+}
+.web_app_manager_churu_item > input{
+    width:100%;
+    line-height:3vh;
+    position:relative;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+.web_app_manager_churu_submit button{
+    color:white;
+    width:100%;
+    line-height:3vh;
+    position:relative;
+    top:50%;
+    margin-left:3vh;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background-color:#4CAF50;
+    border-radius:5px;
+}
+.web_app_manager_churu_return button{
+    color:white;
+    width:90%;
+    line-height:3vh;
+    position:relative;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background-color:#4CAF50;
+    border-radius:5px;
+}
+.web_app_manager_churu_table{
+    width:90%;
+    background-color:white;
+    margin:0 auto;
+    margin-top:3vh;
+}
+
+.web_app_manager_daka{                                                                                                                                       
+    user-select: none;
+    width:100%;
+    height:100%;
+    background-image: url("/static/image/bg.jpg");
+    background-size: 100% 100%;
+}
+.web_app_manager_daka_context{
+    width: 65vw;
+    height: 75vh;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color:rgba(0,0,0,0.7);
+    border-radius:5px;
+}
+
+.web_app_manager_daka_title{
+     text-align:center;
+    color:white;
+    font-size:3vh;
+    height:4vh;
+    padding-top:2vh;
+}
+
+.web_app_manager_daka_name{
+    width:30%;
+    height:7vh;
+    margin-top:2vh;
+    display: inline-block;
+    margin-left:3vh;
+}
+.web_app_manager_daka_id{
+    width:30%;
+    height:7vh;
+    display: inline-block;
+    margin-top:2vh;
+    margin-left:3vh;
+}
+.web_app_manager_daka_submit{
+    width:30%;
+    height:7vh;
+    margin-top:2vh;
+
+    display: inline-block;
+}
+.web_app_manager_daka_return {
+    width:100%;
+    height:7vh;
+}
+.web_app_manager_daka_item{
+    width:100%;
+    height:100%;
+}
+.web_app_manager_daka_item > input{
+    width:100%;
+    line-height:3vh;
+    position:relative;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+.web_app_manager_daka_submit button{
+    color:white;
+    width:100%;
+    line-height:3vh;
+    position:relative;
+    top:50%;
+    margin-left:3vh;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background-color:#4CAF50;
+    border-radius:5px;
+}
+.web_app_manager_daka_return button{
+    color:white;
+    width:90%;
+    line-height:3vh;
+    position:relative;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background-color:#4CAF50;
+    border-radius:5px;
+}
+.web_app_manager_daka_table{
+    width:90%;
+    background-color:white;
+    margin:0 auto;
+    margin-top:3vh;
+}
+
+.web_app_manager_lixiao{                                                                                                                                       
+    user-select: none;
+    width:100%;
+    height:100%;
+    background-image: url("/static/image/bg.jpg");
+    background-size: 100% 100%;
+}
+.web_app_manager_lixiao_context{
+    width: 65vw;
+    height: 75vh;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color:rgba(0,0,0,0.7);
+    border-radius:5px;
+}
+
+.web_app_manager_lixiao_title{
+     text-align:center;
+    color:white;
+    font-size:3vh;
+    height:4vh;
+    padding-top:2vh;
+}
+
+.web_app_manager_lixiao_name{
+    width:30%;
+    height:7vh;
+    margin-top:2vh;
+    display: inline-block;
+    margin-left:3vh;
+}
+.web_app_manager_lixiao_id{
+    width:30%;
+    height:7vh;
+    display: inline-block;
+    margin-top:2vh;
+    margin-left:3vh;
+}
+.web_app_manager_lixiao_submit{
+    width:30%;
+    height:7vh;
+    margin-top:2vh;
+
+    display: inline-block;
+}
+.web_app_manager_lixiao_return {
+    width:100%;
+    height:7vh;
+}
+.web_app_manager_lixiao_item{
+    width:100%;
+    height:100%;
+}
+.web_app_manager_lixiao_item > input{
+    width:100%;
+    line-height:3vh;
+    position:relative;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+.web_app_manager_lixiao_submit button{
+    color:white;
+    width:100%;
+    line-height:3vh;
+    position:relative;
+    top:50%;
+    margin-left:3vh;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background-color:#4CAF50;
+    border-radius:5px;
+}
+.web_app_manager_lixiao_return button{
+    color:white;
+    width:90%;
+    line-height:3vh;
+    position:relative;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background-color:#4CAF50;
+    border-radius:5px;
+}
+.web_app_manager_lixiao_table{
+    width:90%;
+    background-color:white;
+    margin:0 auto;
+    margin-top:3vh;
+}
+
+.web_app_menu{                                                                                                                                       
+    user-select: none;
+    width:100%;
+    height:100%;
+    background-image: url("/static/image/bg.jpg");
+    background-size: 100% 100%;
+}
+.web_app_menu_normal{
+    width: 20vw;
+    height: 50vh;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color:rgba(0,0,0,0.7);
+    border-radius:5px;
+}
+
+.web_app_menu_normal_title{
+     text-align:center;
+    color:white;
+    font-size:3vh;
+    height:4vh;
+    padding-top:2vh;
+}
+
+.web_app_menu_normal_daka{
+    width:100%;
+    height:7vh;
+    margin-top:2vh;
+}
+.web_app_menu_normal_lixiao{
+    width:100%;
+    height:7vh;
+}
+
+.web_app_menu_normal_churu{
+    width:100%;
+    height:7vh;
+}
+
+.web_app_menu_normal_item{
+    width:100%;
+    height:100%;
+}
+
+.web_app_menu_normal_item button{
+     color:white;
+    width:90%;
+    line-height:3vh;
+    position:relative;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background-color:#4CAF50;
+    border-radius:5px;
+}
+
+.web_app_menu_manager{
+    width: 20vw;
+    height: 50vh;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color:rgba(0,0,0,0.7);
+    border-radius:5px;
+}
+
+.web_app_menu_manager_title{
+     text-align:center;
+    color:white;
+    font-size:3vh;
+    height:4vh;
+    padding-top:2vh;
+}
+
+.web_app_menu_manager_daka{
+    width:100%;
+    height:7vh;
+    margin-top:2vh;
+}
+.web_app_menu_manager_lixiao{
+    width:100%;
+    height:7vh;
+}
+
+.web_app_menu_manager_churu{
+    width:100%;
+    height:7vh;
+}
+
+.web_app_menu_manager_item{
+    width:100%;
+    height:100%;
+}
+
+.web_app_menu_manager_item button{
+     color:white;
+    width:90%;
+    line-height:3vh;
+    position:relative;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background-color:#4CAF50;
+    border-radius:5px;
+}
+.web_app_normal_churu{                                                                                                                                       
+    user-select: none;
+    width:100%;
+    height:100%;
+    background-image: url("/static/image/bg.jpg");
+    background-size: 100% 100%;
+}
+.web_app_normal_churu_context{
+    width: 20vw;
+    height: 50vh;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color:rgba(0,0,0,0.7);
+    border-radius:5px;
+}
+
+.web_app_normal_churu_title{
+     text-align:center;
+    color:white;
+    font-size:3vh;
+    height:4vh;
+    padding-top:2vh;
+}
+
+.web_app_normal_churu_name{
+    width:100%;
+    height:7vh;
+    margin-top:2vh;
+}
+.web_app_normal_churu_id{
+    width:100%;
+    height:7vh;
+}
+.web_app_normal_churu_submit{
+    width:100%;
+    height:7vh;                                                                                                                                             
+}
+.web_app_normal_churu_return {
+    width:100%;
+    height:7vh;
+}
+.web_app_normal_churu_item{
+    width:100%;
+    height:100%;
+}
+.web_app_normal_churu_item > input{
+    width:90%;
+    line-height:3vh;
+    position:relative;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+.web_app_normal_churu_submit button{
+    color:white;
+    width:90%;
+    line-height:3vh;
+    position:relative;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background-color:#4CAF50;
+    border-radius:5px;
+}
+.web_app_normal_churu_return button{
+    color:white;
+    width:90%;
+    line-height:3vh;
+    position:relative;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background-color:#4CAF50;
+    border-radius:5px;
+}
+
+.web_app_normal_daka{                                                                                                                                       
+    user-select: none;
+    width:100%;
+    height:100%;
+    background-image: url("/static/image/bg.jpg");
+    background-size: 100% 100%;
+}
+.web_app_normal_daka_context{
+    width: 20vw;
+    height: 50vh;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color:rgba(0,0,0,0.7);
+    border-radius:5px;
+}
+
+.web_app_normal_daka_title{
+     text-align:center;
+    color:white;
+    font-size:3vh;
+    height:4vh;
+    padding-top:2vh;
+}
+
+.web_app_normal_daka_name{
+    width:100%;
+    height:7vh;
+    margin-top:2vh;
+}
+.web_app_normal_daka_id{
+    width:100%;
+    height:7vh;
+}
+.web_app_normal_daka_submit{
+    width:100%;
+    height:7vh;                                                                                                                                             
+}
+.web_app_normal_daka_return {
+    width:100%;
+    height:7vh;
+}
+.web_app_normal_daka_item{
+    width:100%;
+    height:100%;
+}
+.web_app_normal_daka_item > input{
+    width:90%;
+    line-height:3vh;
+    position:relative;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+.web_app_normal_daka_submit button{
+    color:white;
+    width:90%;
+    line-height:3vh;
+    position:relative;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background-color:#4CAF50;
+    border-radius:5px;
+}
+.web_app_normal_daka_return button{
+    color:white;
+    width:90%;
+    line-height:3vh;
+    position:relative;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background-color:#4CAF50;
+    border-radius:5px;
+}
+
+.web_app_normal_lixiao{                                                                                                                                       
+    user-select: none;
+    width:100%;
+    height:100%;
+    background-image: url("/static/image/bg.jpg");
+    background-size: 100% 100%;
+}
+.web_app_normal_lixiao_context{
+    width: 20vw;
+    height: 50vh;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color:rgba(0,0,0,0.7);
+    border-radius:5px;
+}
+
+.web_app_normal_lixiao_title{
+     text-align:center;
+    color:white;
+    font-size:3vh;
+    height:4vh;
+    padding-top:2vh;
+}
+
+.web_app_normal_lixiao_name{
+    width:100%;
+    height:7vh;
+    margin-top:2vh;
+}
+.web_app_normal_lixiao_id{
+    width:100%;
+    height:7vh;
+}
+.web_app_normal_lixiao_submit{
+    width:100%;
+    height:7vh;                                                                                                                                             
+}
+.web_app_normal_lixiao_return {
+    width:100%;
+    height:7vh;
+}
+.web_app_normal_lixiao_item{
+    width:100%;
+    height:100%;
+}
+.web_app_normal_lixiao_item > input{
+    width:90%;
+    line-height:3vh;
+    position:relative;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+.web_app_normal_lixiao_submit button{
+    color:white;
+    width:90%;
+    line-height:3vh;
+    position:relative;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background-color:#4CAF50;
+    border-radius:5px;
+}
+.web_app_normal_lixiao_return button{
+    color:white;
+    width:90%;
+    line-height:3vh;
+    position:relative;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background-color:#4CAF50;
+    border-radius:5px;
+}
+
