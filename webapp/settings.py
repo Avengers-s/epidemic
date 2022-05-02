@@ -78,13 +78,23 @@ WSGI_APPLICATION = 'webapp.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
-DATABASES = {
+"""DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': BASE_DIR / 'db.sqlite3',
     }
-}
+}"""
 
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql'，  # 默认
+        'NAME': 'school'，  # 连接的数据库
+        'HOST': '127.0.0.1'，  # mysql的ip地址
+        'PORT': 443，  # mysql的端口
+        'USER': 'root'，  # mysql的用户名
+        'PASSWORD': 'root'  # mysql的密码
+    }
+}
 
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
