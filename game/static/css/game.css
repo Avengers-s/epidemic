@@ -1,0 +1,141 @@
+.web_app_settings{
+    width:100%;
+    height:100%;
+    user-select: none;
+}
+
+.web_app_settings_login{
+    width: 20vw;
+    height: 31vh;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color:rgba(0,0,0,0.7);
+    border-radius:5px;
+}
+
+.web_app_settings_login_title{
+    text-align:center;
+    color:white;
+    font-size:3vh;
+    height:4vh;
+    padding-top:2vh;
+}
+
+.web_app_settings_login_username{
+    display:block;
+    height:7vh;
+    margin-top:2vh;
+}
+
+.web_app_settings_login_item{
+    width:100%;
+    height:100%;
+}
+.web_app_settings_login_item > input{
+    width:90%;
+    line-height:3vh;
+    position:relative;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+
+.web_app_settings_login_password{
+    display:block;
+    height:7vh;
+}
+.web_app_settings_login_submit{
+    display:block;
+    height:7vh;
+}
+
+.web_app_settings_login_submit button{
+    color:white;
+    width:90%;
+    line-height:3vh;
+    position:relative;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background-color:#4CAF50;
+    border-radius:5px;
+}
+
+.web_app_normal_daka{
+    user-select: none;
+    width:100%;
+    height:100%;
+}
+.web_app_normal_daka_context{
+    width: 20vw;
+    height: 50vh;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color:rgba(0,0,0,0.7);
+    border-radius:5px;
+}
+
+.web_app_normal_daka_title{
+     text-align:center;
+    color:white;
+    font-size:3vh;
+    height:4vh;
+    padding-top:2vh;
+}
+
+.web_app_normal_daka_name{
+    width:100%;
+    height:7vh;
+    margin-top:2vh;
+}
+.web_app_normal_daka_id{
+    width:100%;
+    height:7vh;
+}
+
+.web_app_normal_daka_submit{
+    width:100%;
+    height:7vh;
+}
+.web_app_normal_daka_return {
+    width:100%;
+    height:7vh;
+}
+.web_app_normal_daka_item{
+    width:100%;
+    height:100%;
+}
+.web_app_normal_daka_item > input{
+    width:90%;
+    line-height:3vh;
+    position:relative;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+.web_app_normal_daka_submit button{
+    color:white;
+    width:90%;
+    line-height:3vh;
+    position:relative;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background-color:#4CAF50;
+    border-radius:5px;
+}
+.web_app_normal_daka_return button{
+    color:white;
+    width:90%;
+    line-height:3vh;
+    position:relative;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background-color:#4CAF50;
+    border-radius:5px;
+}
