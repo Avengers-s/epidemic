@@ -1,13 +1,13 @@
-.web_app_manager_lixiao{                                                                                                                                       
+.web_app_normal_weihu{                                                                                                                                       
     user-select: none;
     width:100%;
     height:100%;
     background-image: url("/static/image/bg.jpg");
     background-size: 100% 100%;
 }
-.web_app_manager_lixiao_context{
-    width: 65vw;
-    height: 75vh;
+.web_app_normal_weihu_context{
+    width: 20vw;
+    height: 58vh;
     position: relative;
     top: 50%;
     left: 50%;
@@ -16,7 +16,7 @@
     border-radius:5px;
 }
 
-.web_app_manager_lixiao_title{
+.web_app_normal_weihu_title{
      text-align:center;
     color:white;
     font-size:3vh;
@@ -24,56 +24,52 @@
     padding-top:2vh;
 }
 
-.web_app_manager_lixiao_yijian{
-    width:30%;
+.web_app_normal_weihu_name{
+    width:100%;
     height:7vh;
     margin-top:2vh;
-    display: inline-block;
-    margin-left:3vh;
 }
-.web_app_manager_lixiao_id{
-    width:30%;
-    height:7vh;
-    display: inline-block;
-    margin-top:2vh;
-    margin-left:3vh;
-}
-.web_app_manager_lixiao_submit{
-    width:30%;
-    height:7vh;
-    margin-top:2vh;
-
-    display: inline-block;
-}
-.web_app_manager_lixiao_return {
+.web_app_normal_weihu_id{
     width:100%;
     height:7vh;
 }
-.web_app_manager_lixiao_item{
+
+.web_app_normal_weihu_kind{
+    width:100%;
+    height:7vh;
+}
+
+.web_app_normal_weihu_time{
+    width:100%;
+    height:7vh;
+}
+
+.web_app_normal_weihu_num{
+    width:100%;
+    height:7vh;
+}
+.web_app_normal_weihu_submit{
+    width:100%;
+    height:7vh; 
+
+}
+.web_app_normal_weihu_return {
+    width:100%;
+    height:7vh;
+}
+.web_app_normal_weihu_item{
     width:100%;
     height:100%;
 }
-.web_app_manager_lixiao_item > input{
-    width:100%;
+.web_app_normal_weihu_item > input{
+    width:90%;
     line-height:3vh;
     position:relative;
     top:50%;
     left:50%;
     transform:translate(-50%,-50%);
 }
-.web_app_manager_lixiao_submit button{
-    color:white;
-    width:100%;
-    line-height:3vh;
-    position:relative;
-    top:50%;
-    margin-left:3vh;
-    left:50%;
-    transform: translate(-50%,-50%);
-    background-color:#4CAF50;
-    border-radius:5px;
-}
-.web_app_manager_lixiao_return button{
+.web_app_normal_weihu_submit button{
     color:white;
     width:90%;
     line-height:3vh;
@@ -84,10 +80,22 @@
     background-color:#4CAF50;
     border-radius:5px;
 }
-.web_app_manager_lixiao_table{
+.web_app_normal_weihu_return button{
+    color:white;
     width:90%;
-    background-color:white;
-    margin:0 auto;
-    margin-top:3vh;
+    line-height:3vh;
+    position:relative;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background-color:#4CAF50;
+    border-radius:5px;
 }
 
+.web_app_normal_weihu_error_message{
+    color:red;
+    font-size:0.8vh;
+    position:absolute;
+    left:22vh;
+    top:40.5vh;
+}

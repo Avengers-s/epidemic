@@ -19,9 +19,9 @@ class Menu{
                         </div>
                     </div>
                         
-                    <div class="web_app_menu_normal_churu">
+                    <div class="web_app_menu_normal_weihu">
                         <div class="web_app_menu_normal_item">
-                            <button>出入信息管理</button>
+                            <button>疫苗信息维护</button>
                         </div>
                     </div>
                 </div>
@@ -42,9 +42,14 @@ class Menu{
                         </div>
                     </div>
 
-                    <div class="web_app_menu_manager_churu">
+                    <div class="web_app_menu_manager_weihu">
                         <div class="web_app_menu_normal_item">
-                            <button>出入查询</button>
+                            <button>疫苗信息查询</button>
+                        </div>
+                    </div>
+                    <div class="web_app_menu_manager_geli">
+                        <div class="web_app_menu_normal_item">
+                            <button>隔离信息维护</button>
                         </div>
                     </div>
                 </div>
@@ -54,13 +59,13 @@ class Menu{
         this.$normal = this.$menu.find(".web_app_menu_normal");
         this.$normal_daka = this.$normal.find(".web_app_menu_normal_daka button");
         this.$normal_lixiao = this.$normal.find(".web_app_menu_normal_lixiao button");
-        this.$normal_churu = this.$normal.find(".web_app_menu_normal_churu button");
+        this.$normal_weihu = this.$normal.find(".web_app_menu_normal_weihu button");
 
         this.$manager = this.$menu.find(".web_app_menu_manager");
         this.$manager_daka = this.$manager.find(".web_app_menu_manager_daka button");
         this.$manager_lixiao = this.$manager.find(".web_app_menu_manager_lixiao button");
-        this.$manager_churu = this.$manager.find(".web_app_menu_manager_churu button");
-
+        this.$manager_weihu = this.$manager.find(".web_app_menu_manager_weihu button");
+        this.$manager_geli = this.$manager.find(".web_app_menu_manager_geli");
         this.hide();
         this.start();
     }
@@ -85,9 +90,9 @@ class Menu{
             outer.root.normal_lixiao.show();
         });
 
-        this.$normal_churu.click(function(){
+        this.$normal_weihu.click(function(){
             outer.hide();
-            outer.root.normal_churu.show();
+            outer.root.normal_weihu.show();
         });
     }
     add_manager_listening_event(){
@@ -102,9 +107,13 @@ class Menu{
             outer.root.manager_lixiao.show();
         });
 
-        this.$manager_churu.click(function(){
+        this.$manager_weihu.click(function(){
             outer.hide();
-            outer.root.manager_churu.show();
+            outer.root.manager_weihu.show();
+        });
+        this.$manager_geli.click(function(){
+            outer.hide();
+            outer.root.manager_geli.show();
         });
     }
     hide(){

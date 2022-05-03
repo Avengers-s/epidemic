@@ -107,6 +107,8 @@ class Normal_daka{
     hide(){
         this.$normal_daka.hide();
         this.$error_message.empty();
+        this.$daka_tiwen.val("");
+        this.$daka_didian.val("");
     }
     show(){
         this.$normal_daka.show();

@@ -1,11 +1,11 @@
-.web_app_manager_lixiao{                                                                                                                                       
+.web_app_manager_weihu{                                                                                                                                       
     user-select: none;
     width:100%;
     height:100%;
     background-image: url("/static/image/bg.jpg");
     background-size: 100% 100%;
 }
-.web_app_manager_lixiao_context{
+.web_app_manager_weihu_context{
     width: 65vw;
     height: 75vh;
     position: relative;
@@ -16,7 +16,7 @@
     border-radius:5px;
 }
 
-.web_app_manager_lixiao_title{
+.web_app_manager_weihu_title{
      text-align:center;
     color:white;
     font-size:3vh;
@@ -24,36 +24,36 @@
     padding-top:2vh;
 }
 
-.web_app_manager_lixiao_yijian{
+.web_app_manager_weihu_name{
     width:30%;
     height:7vh;
     margin-top:2vh;
     display: inline-block;
     margin-left:3vh;
 }
-.web_app_manager_lixiao_id{
+.web_app_manager_weihu_id{
     width:30%;
     height:7vh;
     display: inline-block;
     margin-top:2vh;
     margin-left:3vh;
 }
-.web_app_manager_lixiao_submit{
+.web_app_manager_weihu_submit{
     width:30%;
     height:7vh;
     margin-top:2vh;
 
     display: inline-block;
 }
-.web_app_manager_lixiao_return {
+.web_app_manager_weihu_return {
     width:100%;
     height:7vh;
 }
-.web_app_manager_lixiao_item{
+.web_app_manager_weihu_item{
     width:100%;
     height:100%;
 }
-.web_app_manager_lixiao_item > input{
+.web_app_manager_weihu_item > input{
     width:100%;
     line-height:3vh;
     position:relative;
@@ -61,7 +61,7 @@
     left:50%;
     transform:translate(-50%,-50%);
 }
-.web_app_manager_lixiao_submit button{
+.web_app_manager_weihu_submit button{
     color:white;
     width:100%;
     line-height:3vh;
@@ -73,7 +73,7 @@
     background-color:#4CAF50;
     border-radius:5px;
 }
-.web_app_manager_lixiao_return button{
+.web_app_manager_weihu_return button{
     color:white;
     width:90%;
     line-height:3vh;
@@ -84,7 +84,7 @@
     background-color:#4CAF50;
     border-radius:5px;
 }
-.web_app_manager_lixiao_table{
+.web_app_manager_weihu_table{
     width:90%;
     background-color:white;
     margin:0 auto;

@@ -7,11 +7,12 @@ class WebApp {
         
         this.normal_daka = new Normal_daka(this);
         this.normal_lixiao = new Normal_lixiao(this);
-        this.normal_churu = new Normal_churu(this);
+        this.normal_weihu = new Normal_weihu(this);
 
         this.manager_daka = new Manager_daka(this);
         this.manager_lixiao = new Manager_lixiao(this);
-        this.manager_churu = new Manager_churu(this);
+        this.manager_weihu = new Manager_weihu(this);
+        this.manager_geli = new Manager_geli(this);
     }
 
 }

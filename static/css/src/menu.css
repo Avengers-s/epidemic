@@ -34,7 +34,7 @@
     height:7vh;
 }
 
-.web_app_menu_normal_churu{
+.web_app_menu_normal_weihu{
     width:100%;
     height:7vh;
 }
@@ -85,7 +85,12 @@
     height:7vh;
 }
 
-.web_app_menu_manager_churu{
+.web_app_menu_manager_weihu{
+    width:100%;
+    height:7vh;
+}
+
+.web_app_menu_manager_geli{
     width:100%;
     height:7vh;
 }
