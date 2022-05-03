@@ -65,7 +65,11 @@
     border-radius:5px;
 }
 
-
+.web_app_settings_error_message {
+    color: red;
+    font-size: 1vh;
+    margin-left:1vw;
+}
 .web_app_manager_churu{                                                                                                                                       
     user-select: none;
     width:100%;
@@ -175,6 +179,7 @@
     transform: translate(-50%,-50%);
     background-color:rgba(0,0,0,0.7);
     border-radius:5px;
+    margin-top:2px;
 }
 
 .web_app_manager_daka_title{
@@ -540,7 +545,7 @@
 }
 .web_app_normal_daka_context{
     width: 20vw;
-    height: 50vh;
+    height: 55vh;
     position: relative;
     top: 50%;
     left: 50%;
@@ -566,9 +571,27 @@
     width:100%;
     height:7vh;
 }
+
+.web_app_normal_daka_tiwen{
+    width:100%;
+    height:7vh;
+}
+.web_app_normal_daka_didian{
+    width:100%;
+    height:7vh;
+}
+.web_app_normal_daka_zaixiao{
+    width:100%;
+    height:4vh;
+    padding-left:2vh;
+    padding-top:1vh;
+    color:white;
+    box-sizing:border-box;
+}
 .web_app_normal_daka_submit{
     width:100%;
-    height:7vh;                                                                                                                                             
+    height:7vh; 
+
 }
 .web_app_normal_daka_return {
     width:100%;
@@ -585,6 +608,11 @@
     top:50%;
     left:50%;
     transform:translate(-50%,-50%);
+}
+.web_app_normal_daka_radio{
+    margin-left:1vh;
+    margin-top:1vh;
+    color:white;
 }
 .web_app_normal_daka_submit button{
     color:white;
@@ -609,6 +637,13 @@
     border-radius:5px;
 }
 
+.web_app_normal_daka_error_message{
+    color:red;
+    font-size:0.8vh;
+    position:absolute;
+    left:22vh;
+    top:35.5vh;
+}
 .web_app_normal_lixiao{                                                                                                                                       
     user-select: none;
     width:100%;

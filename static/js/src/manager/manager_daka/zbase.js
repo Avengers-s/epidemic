@@ -5,34 +5,17 @@ class Manager_daka{
       	<div class="web_app_manager_daka">
             <div class="web_app_manager_daka_context">
                     <div class="web_app_manager_daka_title">
-                        学生健康打卡
-                    </div>
-                    <div class="web_app_manager_daka_name">
-                        <div class="web_app_manager_daka_item">
-                            <input type="text" placeholder="姓名">
-                        </div>
-                    </div>
-                    <div class="web_app_manager_daka_id">
-                        <div class="web_app_manager_daka_item">
-                            <input type="text" placeholder="学号">
-                        </div>
-                    </div>                                                                                                                                  
-                    <div class="web_app_manager_daka_submit">
-                        <div class="web_app_manager_daka_item">
-                            <button>提交</button>
-                        </div>
+                        异常打卡查询
                     </div>
                     <div class="web_app_manager_daka_table">
                         <table class="table table-hover table-bordered">
                             <tr>
-                                <th>姓名</th>
                                 <th>学号</th>
+                                <th>姓名</th>
+                                <th>班级</th>
+                                <th>体温</th>
                             </tr>
                             <tbody class="web_app_manager_daka_table_content">
-                                <tr>
-                                    <td>111</td>
-                                    <td>222</td>
-                                </tr>
                             </tbody>
                         </table>
                     </div>
@@ -69,5 +52,30 @@ class Manager_daka{
     }
     show(){
         this.$manager_daka.show();
+        this.$table_content.empty();
+        let outer=this;
+        $.ajax({
+            url: "https://epidemic.dylolorz.cn/manager/daka",
+            type: "GET",
+            data: {
+                
+            },
+            success: function(resp){
+               if(resp.result==="success"){                                                                                                                
+                    let players = resp.list;
+                    for(let i=0;i<players.length;i++){
+                        let player = players[i];
+                        if(player.length === 4){
+                            let obj = "<tr><td>"+player[0]+"</td><td>"+player[1]+"</td><td>"+player[2]+"</td><td>"+player[3]+"</td><tr>";
+                            outer.$table_content.append(obj);
+                        }else{
+                            let obj = "<tr><td>"+player[0]+"</td><td>"+player[1]+"</td><td>"+player[2]+"</td><td>"+"未打卡"+"</td><tr>";
+                            outer.$table_content.append(obj);
+                        }
+                    }
+                }
+ 
+            },
+        });
     }
 }

@@ -14,6 +14,7 @@
     transform: translate(-50%,-50%);
     background-color:rgba(0,0,0,0.7);
     border-radius:5px;
+    margin-top:2px;
 }
 
 .web_app_manager_daka_title{

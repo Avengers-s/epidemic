@@ -2,6 +2,7 @@ class Settings{
     constructor(root){
         this.root = root;
         this.character = "";
+        this.xuehao="000";
         this.$settings = $(`
             <div class="web_app_settings">
                 <div class="web_app_settings_login">
@@ -61,6 +62,7 @@ class Settings{
             success:function(resp){
                 if(resp.result === "success"){
                     outer.character = resp.character;
+                    outer.xuehao = username;
                     outer.root.menu.show();
                     outer.hide();
                 }else{

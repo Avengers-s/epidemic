@@ -65,4 +65,8 @@
     border-radius:5px;
 }
 
-
+.web_app_settings_error_message {
+    color: red;
+    font-size: 1vh;
+    margin-left:1vw;
+}
